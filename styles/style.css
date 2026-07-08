@@ -1,3 +1,13 @@
+:root {
+  --clr-dark: #070a13;
+  --clr-light: #f1f5f9;
+  --clr-slate400: #94a3b8;
+  --clr-slate600: #475569;
+  --clr-slate800: #1e293b;
+  --clr-rose: #e11d48;
+  --clr-indigo: #4f46e5;
+}
+
 /* 1. Use a more-intuitive box-sizing model */
 *,
 *::before,
@@ -34,6 +44,8 @@ body {
   -webkit-font-smoothing: antialiased;
   /* Custom preference */
   font-family: "General Sans", sans-serif;
+  background-color: var(--clr-dark);
+  color: var(--clr-light);
 }
 
 /* 6. Improve media defaults */
@@ -54,6 +66,7 @@ button,
 textarea,
 select {
   font: inherit;
+  color: inherit;
 }
 
 /* Custom preference */
@@ -95,4 +108,13 @@ h6 {
 #root,
 #__next {
   isolation: isolate;
+}
+
+/* Current project specifics */
+a {
+  color: var(--clr-rose);
+}
+
+strong {
+  color: var(--clr-indigo);
 }
