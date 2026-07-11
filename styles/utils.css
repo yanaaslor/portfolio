@@ -57,7 +57,7 @@
 
 .section-title {
   color: var(--clr-light);
-  text-transform: capitalize;
+  text-transform: uppercase;
   font-weight: 700;
 }
 
