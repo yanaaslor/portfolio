@@ -24,9 +24,12 @@
   max-width: 60ch;
 }
 
-.featured__label,
 .featured__info {
   font-size: var(--size-sm);
+}
+
+.featured__label {
+  font-size: var(--size-base);
 }
 
 .featured__label {
@@ -47,7 +50,7 @@
 .featured__img-container {
   margin-top: 1rem;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 1rem;
 }
 
@@ -89,7 +92,10 @@
     font-size: var(--size-base);
   }
 
-  .featured__label,
+  .featured__label {
+    font-size: var(--size-lg);
+  }
+
   .featured__info {
     font-size: var(--size-base);
   }
@@ -127,7 +133,10 @@
     font-size: var(--size-lg);
   }
 
-  .featured__label,
+  .featured__description {
+    font-size: var(--size-xl);
+  }
+
   .featured__info {
     font-size: var(--size-lg);
   }

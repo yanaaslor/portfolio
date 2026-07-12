@@ -55,6 +55,11 @@
   font-weight: 400;
 }
 
+.reading-voice {
+  color: var(--clr-slate400);
+  font-weight: 400;
+}
+
 .section-title {
   color: var(--clr-light);
   text-transform: uppercase;
@@ -103,7 +108,7 @@ strong {
 .container {
   width: 100%;
   margin-inline: auto;
-  padding-inline: 2rem;
+  padding-inline: 1.5rem;
 }
 
 /* xs */
