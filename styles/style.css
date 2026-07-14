@@ -61,6 +61,15 @@ html {
   scroll-behavior: smooth;
 }
 
+.light-mode {
+  --clr-light: #070a13;
+  --clr-dark: #f1f5f9;
+  --clr-slate400: #1e293b;
+  --clr-slate500: #1e293b;
+  --clr-slate600: #1e293b;
+  --clr-slate800: #1e293b;
+}
+
 body {
   /* 5. Improve text rendering */
   -webkit-font-smoothing: antialiased;
